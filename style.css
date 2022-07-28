@@ -1,0 +1,656 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  width: 85%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+/* Header .......................................*/
+
+header {
+  background: #9ab8ba;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+  color: #045256;
+}
+
+nav {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding: 20px;
+  list-style: none;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: #045256;
+  font-size: 22px;
+}
+
+a:hover {
+  color: #ddf7f8;
+}
+
+main {
+  background: #9ab8ba;
+}
+
+/* Prentaciones ....................................*/
+
+.presentacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  background: #9ab8ba;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  width: 260px;
+  height: 260px;
+}
+
+.texto h1 {
+  margin-bottom: 16px;
+}
+
+.texto p {
+  font-size: 20px;
+}
+
+.redes {
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+.redes a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: #045256;
+  font-size: 20px;
+}
+
+.redes a:hover {
+  color: #ddf7f8;
+}
+
+/* Sobre mi....................................... */
+
+.sobremi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+}
+
+.titulo {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section p {
+  width: 70%;
+  font-size: 20px;
+}
+
+/* Skills.................................... */
+
+.skills {
+  background: #9ab8ba;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloskill {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cajagrandeskill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cajasskill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 125px;
+  height: 125px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Estudios......................................... */
+
+.estudios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 450px;
+  background: #fff;
+}
+
+.tituloformacion {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cursouno {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.cajaformacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+  margin: auto;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+.cajaformacion img {
+  width: 200px;
+  height: 140px;
+}
+
+.formacion {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.tiempo {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+/* Experiencia Profesional........................................................... */
+
+.experiencia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #9ab8ba;
+}
+
+.tituloexperiencia {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+/* Encriptador */
+.encriptador {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.encriptador img {
+  width: 60%;
+  min-height: 380px;
+}
+
+.ejerciciosencripta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+  min-height: 200px;
+}
+
+.textoencripta {
+  margin: 10px;
+}
+
+.botonesencript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonencript {
+  background: #0a3871;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  margin: 10px;
+}
+
+.botonencript a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ahorcado */
+
+.ahorcado {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.ahorcado img {
+  width: 60%;
+  min-height: 380px;
+}
+
+.ejercicioahorca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoahorca {
+  margin: 10px;
+}
+
+.botonahorca {
+  background: #0a3871;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  margin: 10px;
+}
+
+.botonahorca a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.vermas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #0a3871;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  margin: 20px;
+}
+
+.vermas a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Formulario..................................... */
+
+.formulario {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.imagenformulario {
+  width: 40%;
+  height: 451px;
+}
+
+.imagenformulario img {
+  width: 100%;
+  height: 100%;
+}
+
+.infoformulario {
+  width: 60%;
+  height: 520px;
+  background: #9ab8ba;
+}
+
+.infocontacto {
+  width: 90%;
+  color: #fff;
+  margin: 10px 20px;
+}
+
+.infocontactoform {
+  width: 100%;
+  min-height: 200px;
+}
+
+.infocontactoform {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px 10px;
+}
+
+input {
+  margin: 10px 0px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.botonform {
+  background: #0a3871;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  margin: auto;
+}
+
+::placeholder {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.warnings {
+  color: red;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  text-align: center;
+  font-size: 10px;
+  background: #000;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9ab8ba;
+  margin-top: 30px;
+}
+
+/*responsive*  para tablet....................*/
+
+@media screen and (max-width: 756px) {
+  li a {
+    text-decoration: none;
+    color: #045256;
+    font-size: 18px;
+  }
+  .sobremi p {
+    width: 100%;
+  }
+
+  .cajasskill {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .cajaformacion {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cajaformacion img {
+    width: 60%;
+    height: 70%;
+  }
+
+  .estudios {
+    width: 100%;
+    height: 400px;
+  }
+
+  .encriptador img {
+    width: 60%;
+    min-height: 240px;
+  }
+
+  .ahorcado img {
+    width: 60%;
+    min-height: 230px;
+  }
+
+  .formulario {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagenformulario img {
+    display: none;
+  }
+
+  .imagenformulario {
+    display: none;
+  }
+
+  .infoformulario {
+    width: 100%;
+    height: 520px;
+    background: #9ab8ba;
+  }
+
+  /*responsive*  para celular....................*/
+
+  @media screen and (max-width: 360px) {
+    /*presentacion....................*/
+
+    .presentacion {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 450px;
+      margin-top: 15px;
+    }
+
+    img {
+      width: 240px;
+      height: 240px;
+    }
+
+    .texto h1 {
+      margin-bottom: 16px;
+    }
+
+    .texto p {
+      font-size: 20px;
+    }
+
+    .redes {
+      margin-top: 16px;
+      margin-left: 0;
+    }
+
+    .redes a {
+      text-decoration: none;
+      padding-right: 10px;
+      color: #045256;
+      font-size: 17px;
+    }
+
+    /*sobre mi....................*/
+
+    .sobremi {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 450px;
+    }
+
+    .titulo {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    /*sobre mi....................*/
+
+    .skills {
+      min-height: 1000px;
+    }
+
+    .tituloskill {
+      text-align: center;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .cajagrandeskill {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .cajasskill {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+      background: #fff;
+      margin: auto;
+      margin-top: 20px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    /*formacion....................*/
+
+    .estudios {
+      min-height: 610px;
+    }
+
+    .cursos {
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      text-align: center;
+    }
+
+    /*experiencia profesional....................*/
+
+    .encriptador {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .encriptador img {
+      width: 100%;
+      min-height: 280px;
+    }
+
+    .ejerciciosencripta {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100px;
+    }
+
+    .ahorcado img {
+      width: 60%;
+      min-height: 380px;
+      margin-bottom: 30px;
+    }
+
+    .ahorcado {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .ahorcado img {
+      width: 100%;
+      min-height: 280px;
+    }
+
+    .textoahorca {
+      margin: 10px;
+      align-items: center;
+    }
+
+    /*experiencia profesional....................*/
+  }
+}
